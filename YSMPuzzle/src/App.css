@@ -1,3 +1,35 @@
-@import 'tailwindcss/base';
-@import 'tailwindcss/components';
-@import 'tailwindcss/utilities';
+@media not all and (min-width: 768px){
+  .myApp{
+    height: 100vh;
+    display: grid;
+    grid-template-areas: 
+      'navbar navbar navbar'
+      '. puzzle .'
+      '. quiz .'
+      'footer footer footer';
+  }
+
+  .navbar{
+    display: grid;
+    grid-area: navbar;
+    background-color: #E5E5E5; 
+  }
+  .puzzle{
+    /* flex justify-center p-16 font-bold text-3xl bg-[#E5E5E5] 
+    text-[#006D77] max-md:mt-28 max-md:mr-20 max-md:ml-20 rounded-xl  */
+    display: grid;
+    grid-area: puzzle;
+    background-color: #E5E5E5; 
+    color:#006D77;
+    border: solid 0px;
+  }
+
+  .quiz{
+    display: grid;
+    grid-area: quiz;
+  }
+  .footer{
+    display: grid;
+    grid-area: footer;
+  }
+}
