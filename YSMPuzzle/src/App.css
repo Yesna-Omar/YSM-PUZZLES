@@ -33,3 +33,17 @@
     grid-area: footer;
   }
 }
+
+.crossword-cell {
+  display: inline-block;
+}
+
+.letter-box {
+  width: 30px;
+  height: 30px;
+  border: 1px solid black; /* Add border around each letter */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+

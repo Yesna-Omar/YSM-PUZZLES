@@ -1,9 +1,12 @@
-import './App.css';
-import Crossword from './Component/Crossword';
+// import './App.css';
+// import Crossword from './Component/Crossword';
 // import FooterSection from './Component/FooterSection';
 // import NavBar from './Component/NavBar';
 // import PuzzleSection from './Component/PuzzleSection';
 // import QuizSection from './Component/QuizSection';
+
+import CrosswordTest from "./Component/CrosswordTest";
+import Quiz from "./Component/Quiz";
 
 
 function App() {
@@ -13,7 +16,10 @@ function App() {
      <QuizSection />
      <PuzzleSection />
      <FooterSection /> */}
-     <Crossword />
+     {/* <Crossword /> */}
+     <Quiz />
+     < CrosswordTest />
+
      
     </div>
   );
